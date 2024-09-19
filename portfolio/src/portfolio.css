@@ -1,0 +1,33 @@
+.right {
+  width: 65%;
+  height: 550px;
+  border: 1px solid blue;
+  border-radius: 50px;
+}
+.portfolioTitle{
+  font-size: 40px;
+  padding-top: 40px;
+  padding-left: 50px;
+  padding-bottom: 10px;
+  color: red;
+}
+.portfolioBoard{
+  padding-top: 15px;
+  padding-left: 40%;
+  font-size: 20px;
+}
+.portfolioContent{
+  color: red;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.titleExpl{
+  font-size: 15px;
+  color: black;
+}
+.portfolioContentExpl{
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 40%;
+  font-size: 12px;
+}
