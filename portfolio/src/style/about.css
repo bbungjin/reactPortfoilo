@@ -1,0 +1,67 @@
+.right {
+    width: 65%;
+    height: 550px;
+    border: 1px solid blue;
+    border-radius: 50px;
+}
+
+.aboutCotainer {
+    width: 65%;
+    height: 550px;
+}
+
+/* h2 About Me */
+.aboutMe {
+    margin-left: 13%;
+}
+
+.aboutMeTop {
+    display: flex;
+    justify-content: space-around;
+}
+
+.aboutMeIntroduce {
+    width: 25%;
+    height: 200px;
+}
+
+.aboutMeProfile {
+    width: 25%;
+    height: 200px;
+}
+
+.aboutMeProfile ul {
+    list-style: none;
+}
+
+
+.aboutBottom {
+    display: flex;
+    justify-content: space-around;
+}
+
+/* About Me > Experience */
+.aboutMeExperience {
+    width: 25%;
+    height: 200px;
+}
+
+/* About Me > Skills */
+.aboutMeSkills {
+    width: 30%;
+    height: 20%;
+}
+
+.aboutMeSkills ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.aboutMeSkills li {
+    background-color: rgb(255, 13, 0);
+    border-radius: 5px;
+    margin: 3%;
+    padding: 3% 7%;
+}
+
