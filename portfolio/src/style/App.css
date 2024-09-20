@@ -16,7 +16,7 @@
 }
 
 .right {
-  width: 100%;
+  width: 65%;
   height: 100%; 
   border: 1px solid blue;
   background-color: white;
@@ -104,8 +104,8 @@
   flex-direction: column; 
   justify-content: center; 
   align-items: center; 
-  position: absolute; 
-  right: 250px; 
+  position: absolute;
+  right: 0px;
   top: 120px; 
 }
 
@@ -137,6 +137,6 @@
 }
 
 .nav img {
-  width: 24px; 
-  height: 24px; 
+  width: 33px; 
+  height: 33px;
 }
