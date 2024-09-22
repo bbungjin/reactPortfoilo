@@ -1,9 +1,6 @@
 .right {
     width: 100%;
     height: 550px;
-    border: 1px solid blue;
-    border-radius: 50px;
-    background-color: white;
 }
 
 .aboutCotainer {
@@ -14,6 +11,7 @@
 /* h2 About Me */
 .aboutMe {
     margin-left: 13%;
+    font-size: 40px;
 }
 
 .aboutMeTop {

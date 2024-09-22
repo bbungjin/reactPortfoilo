@@ -1,10 +1,15 @@
 .right {
   width: 100%;
   height: 550px;
-  border: 1px solid blue;
-  border-radius: 50px;
-  background-color: white;
+  overflow-y: scroll;
+  -ms-overflow-style: none; 
+  scrollbar-width: none; 
 }
+
+.right::-webkit-scrollbar {
+  display: none; /* Chrome, Safari and Opera */
+}
+
 .portfolioTitle{
   font-size: 40px;
   padding-top: 40px;
@@ -12,23 +17,35 @@
   padding-bottom: 10px;
   color: red;
 }
+
 .portfolioBoard{
+  width: 90%;
   padding-top: 15px;
-  padding-left: 40%;
+  margin-left: 50px;
+  margin-right: 50px;
   font-size: 20px;
+  cursor: pointer;
 }
+
+.portfolioBoard:hover {
+  background-color: silver;
+  border-radius: 10px;
+}
+
 .portfolioContent{
   color: red;
   padding-top: 15px;
   padding-bottom: 15px;
 }
+
 .titleExpl{
   font-size: 15px;
   color: black;
 }
+
 .portfolioContentExpl{
   padding-top: 8px;
   padding-bottom: 8px;
-  padding-left: 40%;
+  padding-left: 50%;
   font-size: 12px;
 }
